@@ -1,0 +1,12 @@
+
+DECLARE ns NAMESPACE 'http://tempuri.org/';
+
+CREATE COMPUTE MODULE deleteId_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		SET OutputRoot.XMLNSC.ns:Add.ns:intA = InputLocalEnvironment.REST.Input.Parameters.id;
+		SET OutputRoot.XMLNSC.ns:Add.ns:intB = 187;
+		
+	END;
+END MODULE;

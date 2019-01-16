@@ -1,0 +1,12 @@
+
+
+CREATE COMPUTE MODULE deleteId_Compute1
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE retorno REFERENCE TO InputRoot.XMLNSC.ns:AddResponse.ns:AddResult;
+		
+		SET OutputRoot.JSON.Data.Status = retorno;
+		
+	END;
+END MODULE;

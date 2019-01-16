@@ -1,0 +1,29 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "title" : "Application",
+    "version" : "1.0.0",
+    "description" : "Application"
+  },
+  "paths" : {
+    "/livro/{id}" : {
+      "delete" : {
+        "operationId" : "deleteId",
+        "responses" : {
+          "200" : {
+            "description" : "The operation was successful."
+          }
+        },
+        "produces" : [ "application/json" ],
+        "description" : "Remove from id",
+        "parameters" : [ {
+          "required" : true,
+          "name" : "id",
+          "in" : "path",
+          "type" : "string"
+        } ]
+      }
+    }
+  },
+  "basePath" : "/application/v1"
+}

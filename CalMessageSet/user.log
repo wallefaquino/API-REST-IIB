@@ -1,0 +1,38 @@
+Generating .xsdzip file for message set "CalMessageSet" 
+
+Generating schema for no XML Wire format
+Generating schema using the lax option
+
+
+Processing File : "/CalMessageSet/CalMessageSet/org/tempuri/calculator.mxsd"
+
+
+
+Processing File : "/CalMessageSet/CalMessageSet/org/tempuri/calculator_InlineSchema1.mxsd"
+
+
+
+Processing File : "/CalMessageSet/CalMessageSet/org/xmlsoap/schemas/soap/envelope/soapenv11.mxsd"
+
+
+
+Processing File : "/CalMessageSet/CalMessageSet/soap.mxsd"
+
+Saving File : "/CalMessageSet/.GeneratedSchemas/org/tempuri/calculator.xsd" 
+
+Saving File : "/CalMessageSet/.GeneratedSchemas/org/tempuri/calculator_InlineSchema1.xsd" 
+
+Saving File : "/CalMessageSet/.GeneratedSchemas/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd" 
+
+Saving File : "/CalMessageSet/.GeneratedSchemas/soap.xsd" 
+
+Saving file "/CalMessageSet/.GeneratedSchemas/org/w3/www/xml/_1998/namespace/xml.xsd" 
+
+Processing file "/CalMessageSet/CalMessageSet/org/tempuri/calculator.wsdl" 
+
+Saving file "/CalMessageSet/.ModifiedWSDLs/org/tempuri/calculator.wsdl" 
+
+Saving file "/CalMessageSet/.KeywordsFile/meta-inf/keywords.txt" 
+
+Saving file "/CalMessageSet/CalMessageSet/messageSet.mset" 
+
